@@ -1,23 +1,32 @@
+![](./img/Cabecera_Logo.png)
+![](./img/logo.png)
 # Practica5 - JUnit
 
+
 1. Crear proyecto en github (Practica5).
-2. Crear la interfaz ICalculadora con las operaciones sumar, restar,
-multiplicar y dividir.
-3. Crea la clase calculadora que utilice la interfaz anterior e implementa los
-métodos.
-4. Realiza el primer commit a github.
-5. Luego, crea los test unitarios en JUnit (igual no es necesario descargarlo
-porque puede venir incluido en vuestro IDE) de estos cuatro métodos.
-6. Realiza el segundo commit.
-7. Realiza diferentes pruebas para validar que los test funcionan y expón
+2. Crear una interfaz llamada `ICalculadora` dentro de la carpeta `main/java/edu/poniperro`, el cual contien las operaciones sumar, restar, multiplicar y dividir.
+3. Crear una clase `Calculadora` que utilice la interfaz `ICalculadora` e implementar los métodos.
+4. Realizar commits a github.
+5. Crear los test unitarios en JUnit de los cuatro métodos.
+7. Realizar diferentes pruebas para validar que los test funcionan y exponer los resultados
 los resultados obtenidos, % de tests pasados etc.
 
+![](./img/graph.png)
+##### Diagrama de las ramas
 
-IMAGENES DE TESTING 
-IMAGENES DEL VERSIONADO SEMANTICO 
-JAVA DOC
+![](./img/versioning.png)
+##### Versionado semantico
 
-CREAR UN ANUEVA RAMA DEVELOP DONDE CREAMOS ALLI LA CLASE Y LA INTERFAZ CALCULADORA 
-CREAR  UNA RAMA TESTING PARA HACER TODO LOS TEST 
 
-VERSIONADO SEMANTICO IMG
+![](./img/Captura%20de%20pantalla%202022-05-09%20a%20las%2019.53.11.png)
+##### JavaDoc
+
+![](./img/tests.png)
+##### Casos tests
+
+
+![](./img/jacoco_report.png)
+##### Coverage Jacoco
+
+
+##### Hecho por Joan Nicolau y Noelia Crespí
